@@ -38,13 +38,14 @@
   ],
   "author": "justadudewhohacks",
   "license": "MIT",
+  "private": true,
   "dependencies": {
     "@tensorflow/tfjs-core": "1.2.9",
-    "tfjs-image-recognition-base": "^0.6.2",
+    "tfjs-image-recognition-base": "git+https://seranus@github.com/seranus/tfjs-image-recognition-base.git",
     "tslib": "^1.10.0"
   },
   "devDependencies": {
-    "@tensorflow/tfjs-node": "^1.2.9",
+    "@tensorflow/tfjs-node": "1.2.9",
     "@types/jasmine": "^3.4.0",
     "@types/node": "^12.7.5",
     "canvas": "2.5.0",
@@ -60,6 +61,6 @@
     "rollup-plugin-typescript2": "^0.24.2",
     "rollup-plugin-uglify": "^6.0.3",
     "ts-node": "^8.3.0",
-    "typescript": "^3.6.3"
+    "typescript": "3.5.3"
   }
 }
